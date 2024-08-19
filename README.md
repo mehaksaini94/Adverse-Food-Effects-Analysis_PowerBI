@@ -13,14 +13,11 @@ This project analyzes the adverse effects associated with various food items usi
 
 ## Data Sources
 
-- **Source 1:** Describe the primary data source(s) used in this analysis. Include details such as the source name, type of data (e.g., CSV, database, API), and any preprocessing steps taken before importing the data into Power BI.
+- **Type of Data** CSV
 - **Dataset Source**: https://www.kaggle.com/datasets/fda/adverse-food-events/data
-- **About Dataset**: The FDA CAERS dataset is used, containing records of adverse events related to food products.
+- **About Dataset**: The FDA CAERS dataset is used, containing records of adverse events related to food products. 
+- **Data Cleaning:** Power Query is used to clean and preprocess the data, handling missing values, removing duplicates, and ensuring consistency in data formats. DAX is employed for advanced calculations and data transformations necessary for the analysis.
   
-Data Cleaning: Power Query was used to clean and preprocess the data, handling missing values, removing duplicates, and ensuring consistency in data formats. DAX was employed for advanced calculations and data transformations that were necessary for the analysis.
-![image](https://github.com/user-attachments/assets/ae8a44c2-c8bd-4c53-93b8-a1b77bcde31b)
-
-
 ## Key Features
 
 - **Interactive Dashboards:** Multiple dashboards showcasing various aspects of adverse food effects, including the frequency of specific reactions, affected demographics, and correlations between food types and adverse effects.
