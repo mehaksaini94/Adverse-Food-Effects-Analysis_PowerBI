@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project analyzes the adverse effects associated with various food items using Power BI. The goal is to identify trends, correlations, and insights that can help in understanding and potentially mitigating these adverse effects.
+This project analyzes the adverse effects associated with various food items using the FDA's CAERS (Center for Food Safety and Applied Nutrition Adverse Event Reporting System) dataset in Power BI. The goal is to identify trends, correlations, and insights that can help in understanding and potentially mitigating these adverse effects.
 
 ## Project Objective
 
@@ -14,7 +14,12 @@ This project analyzes the adverse effects associated with various food items usi
 ## Data Sources
 
 - **Source 1:** Describe the primary data source(s) used in this analysis. Include details such as the source name, type of data (e.g., CSV, database, API), and any preprocessing steps taken before importing the data into Power BI.
-- https://www.kaggle.com/datasets/fda/adverse-food-events/data
+- **Dataset Source**: https://www.kaggle.com/datasets/fda/adverse-food-events/data
+- **About Dataset**: The FDA CAERS dataset is used, containing records of adverse events related to food products.
+  
+Data Cleaning: Power Query was used to clean and preprocess the data, handling missing values, removing duplicates, and ensuring consistency in data formats. DAX was employed for advanced calculations and data transformations that were necessary for the analysis.
+![image](https://github.com/user-attachments/assets/ae8a44c2-c8bd-4c53-93b8-a1b77bcde31b)
+
 
 ## Key Features
 
